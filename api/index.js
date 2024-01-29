@@ -26,6 +26,6 @@ app.use((error, req, resp, next) => {
 
 app.listen(3000, async () => {
     console.log("Server started at http://localhost:3000")
-    await mongoose.connect('mongodb+srv://shakyasharad9:mong0sharad4@mern-blog.sozzvwl.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('<replace with mongodb link')
     console.log('MongoDB connected')
 }) //port_number
